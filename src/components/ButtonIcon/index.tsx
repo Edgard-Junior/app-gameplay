@@ -12,7 +12,9 @@ import { styles } from "./style";
 export function ButtonIcon(){
     return(
         <TouchableOpacity>
-            <View style={styles.iconWrapper}
+            <View styles={styles.IconWrapper}>
+                <Image source={DiscordImg} style={styles.Icon} />
+            </View>
         </TouchableOpacity>
-    )
+    );
 }
