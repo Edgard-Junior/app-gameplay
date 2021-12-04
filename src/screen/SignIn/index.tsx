@@ -6,6 +6,7 @@ import {
     StatusBar
 } from "react-native";
 
+import { ButtonIcon } from "../../components/ButtonIcon";
 import IllustrationImg from "../../assets/illustration.png";
 import { styles } from "./style";
 
@@ -36,8 +37,8 @@ export function SignIn(){
                   favoritos com seus amigos.
               </Text>
 
+            <ButtonIcon />
           </View>
-
         </View>
     );
 }
